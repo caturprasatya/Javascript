@@ -1,0 +1,21 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "Sebelum mengerjakan silahkan lakukan command dibawah terlebih dahulu didalam folder ini",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "latest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "pre-push": "npm run test"
+    }
+  }
+}

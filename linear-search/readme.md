@@ -1,0 +1,3 @@
+# Linear Search
+
+### Selamat Mengerjakan
